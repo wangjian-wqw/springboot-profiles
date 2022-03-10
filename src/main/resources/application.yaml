@@ -1,0 +1,29 @@
+---
+# dev
+server:
+  port: 6767
+
+spring:
+  profiles:
+    dev
+---
+# test
+server:
+  port: 6768
+
+spring:
+  profiles:
+    test
+---
+# pro
+server:
+  port: 6769
+
+spring:
+  profiles:
+    pro
+---
+# 激活
+spring:
+  profiles:
+    active: dev
